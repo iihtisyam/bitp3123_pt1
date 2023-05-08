@@ -2,7 +2,7 @@ package samples.demo;
 
 public class Location {
 
-	private String name;
+	
 	private String address;
 
 	public String getAddress() {
@@ -13,11 +13,4 @@ public class Location {
 		this.address = address;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 }
